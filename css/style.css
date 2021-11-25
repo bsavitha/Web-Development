@@ -1,0 +1,53 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+.heading {
+    background-color: rgb(10, 9, 1);
+    color: rgb(222, 236, 92);
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50%;
+    text-align: center;
+    text-shadow: rgb(7, 8, 1) 2px 2px;
+    text-transform: lowercase;
+    transform: rotate(0.1deg);
+}
+
+#tdtable1 {
+    border: 8px solid;
+    border-color: rgb(194, 245, 12);
+    border-radius: 10%;
+    padding: 15px;
+    margin: auto;
+    background-color: rgb(9, 10, 2);
+    transform: skewX(10deg, 10deg);
+}
+
+.tdata {
+    border: 8px double rgb(0, 162, 255);
+    padding: 25px;
+    background-color: rgb(206, 79, 238);
+    transform: skew(10deg, 10deg);
+    transform: translate3d();
+}
+
+.header1 {
+    border: 8px dotted;
+    margin: 25px;
+    background-color: rgb(245, 134, 43);
+    transform: skew(10deg, 10deg);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: rgb(230, 247, 3);
+    transition: width 2s;
+}
+
+div:hover {
+    width: 100%;
+}
